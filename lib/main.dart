@@ -80,16 +80,16 @@ class _HomePageState extends State<HomePage> {
     await Future.delayed(Duration(seconds: 1));
 
     setState(() {
-      _todoList.sort((a, b) {
-        if (a["ok"] && !b["ok"])
+      this._todoList.sort((a, b) {
+        if (a["completed"] && !b["completed"])
           return 1;
-        else if (!a["ok"] && b["ok"])
+        else if (!a["completed"] && b["completed"])
           return -1;
         else
           return 0;
       });
 
-      _saveData();
+      this._saveData();
     });
 
     return null;
