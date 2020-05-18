@@ -10,3 +10,9 @@ Thais Todo app have Snack bar, RefreshIndicator, FloatingActionButton and more.
 # Technologies used
 
 * 💾 Path Provider (to save the todo on the device)
+
+# Demo Gif
+
+<h1 align="center">
+  <img src="20200518_185837.gif" width="250" />
+</h1>
